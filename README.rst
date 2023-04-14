@@ -45,7 +45,7 @@ sphinx-social
 Overview
 --------
 
-Ths extention provide support to embed social media posts in your Sphinx based documentation.
+Ths extention provides support to embed social media posts in your Sphinx based documentation.
 
 each service is served by a custom directive like :
 

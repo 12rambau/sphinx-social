@@ -47,6 +47,7 @@ html_theme_options = {
             "icon": "fa-brands fa-python",
         },
     ],
+    "announcement": "https://raw.githubusercontent.com/12rambau/sphinx-social/main/docs/_static/wip.html",
 }
 html_context = {
     "github_user": "12rambau",

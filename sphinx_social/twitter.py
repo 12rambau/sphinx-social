@@ -19,7 +19,7 @@ class twitter_node(utils.social_node):
         parsed = urlparse(url)
         if not parsed.netloc == "twitter.com":
             logger.warning(
-                f'Ignoring: invalid facebook url: "{url}".',
+                f'Ignoring: invalid twitter url: "{url}".',
                 location=self.get("location"),
             )
             raise nodes.SkipNode

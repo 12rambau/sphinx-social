@@ -45,9 +45,25 @@ sphinx-social
 Overview
 --------
 
-A Sphinx directive for social media embeds
+Ths extention provide support to embed social media posts in your Sphinx based documentation.
+
+each service is served by a custom directive like :
+
+.. code-block:: rst
+
+    .. twitter:: https://twitter.com/github/status/1638541174611779584
+
+We currently support the following services:
+- facebook
+- linkedin
+- mastodon
+- twitter
+
+If you want to see your favorite Social media in this list, please mention them in our `issue tracker <https://github.com/12rambau/sphinx-social/issues>`__.
 
 Credits
 -------
+
+Initialy posted as a concept idea by `@choldgraf <https://github.com/choldgraf>`__ on his `blog <https://chrisholdgraf.com/blog/2023/social-directive/>`__.
 
 This package was created with `Cookiecutter <https://github.com/cookiecutter/cookiecutter>`__ and the `12rambau/pypackage <https://github.com/12rambau/pypackage>`__ project template.

@@ -1,0 +1,7 @@
+social
+======
+
+.. toctree::
+    :glob:
+
+    _*

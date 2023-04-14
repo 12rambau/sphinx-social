@@ -27,8 +27,8 @@ class linkedin_node(utils.social_node):
             raise nodes.SkipNode
 
         # extract the post id from the link
-        regex = r"^.*-(\d{10,})-.*$"
-        id = re.search(regex, parsed.path).group(1)
+        regex = r"^.*(\d{10,}).*$"
+        id = re.search(regex, parsed.path).group(1)  # type: ignore
         embed_url = "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:{}"
         return embed_url.format(id)
 

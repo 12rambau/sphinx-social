@@ -20,6 +20,10 @@ extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.autosummary",
     "sphinx.ext.viewcode",
+    "sphinx.ext.autosectionlabel",
+    "sphinxcontrib.icon",
+    "sphinxcontrib.btn",
+    "sphinxcontrib.images",
     "sphinx_design",
     "sphinx_social",
 ]
@@ -47,6 +51,8 @@ html_theme_options = {
             "icon": "fa-brands fa-python",
         },
     ],
+    "announcement": "https://raw.githubusercontent.com/12rambau/sphinx-social/main/docs/_static/wip.html",
+    "navigation_with_keys": False,
 }
 html_context = {
     "github_user": "12rambau",
@@ -60,3 +66,6 @@ html_css_files = ["custom.css"]
 autosummary_generate = True
 autoclass_content = "init"
 autodoc_typehints = "description"
+
+# -- Options for autosection ---------------------------------------------------
+autosectionlabel_prefix_document = True

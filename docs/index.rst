@@ -11,6 +11,9 @@ sphinx-social
    contribute
    API <api/modules>
 
+.. danger::
+
+   This extention is a work in progress, wait for v0.1 to get a stable release.
 
 test:
 

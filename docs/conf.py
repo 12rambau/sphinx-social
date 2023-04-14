@@ -52,6 +52,7 @@ html_theme_options = {
         },
     ],
     "announcement": "https://raw.githubusercontent.com/12rambau/sphinx-social/main/docs/_static/wip.html",
+    "navigation_with_keys": False,
 }
 html_context = {
     "github_user": "12rambau",

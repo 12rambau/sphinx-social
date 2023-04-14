@@ -17,7 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
 ]
 requires-python = ">=3.6.9"
-dependencies = []
+dependencies = ["sphinx"]
 
 [[project.authors]]
 name = "Pierrick Rambaud"
@@ -35,7 +35,7 @@ Homepage = "https://github.com/12rambau/sphinx-social"
 
 [project.optional-dependencies]
 dev = ["pre-commit", "commitizen", "nox", "mypy"]
-test = ["pytest", "pytest-sugar", "pytest-cov", "pytest-deadfixtures"]
+test = ["pytest", "pytest-sugar", "pytest-cov", "beautifulsoup4", "pytest-regressions"]
 doc = ["sphinx", "pydata-sphinx-theme", "sphinx-copybutton", "sphinx-design", "sphinx-icon", "sphinx-btn", "sphinxcontrib-images"]
 
 [tool.setuptools]

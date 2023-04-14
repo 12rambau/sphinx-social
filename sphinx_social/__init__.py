@@ -26,12 +26,12 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     }
 
     for platform, nodes in socials.items():
-        app.add_node(nodes[0], **_NODE_VISITORS)
+        app.add_node(nodes[0], **_NODE_VISITORS)  # type: ignore
         app.add_directive(platform, nodes[1])
 
     # add the javascript required by some providers
     js_params = {"async": "async", "charset": "utf-8"}
-    app.add_js_file("https://platform.twitter.com/widgets.js", **js_params)
+    app.add_js_file("https://platform.twitter.com/widgets.js", **js_params)  # type: ignore
 
     return {
         "version": __version__,

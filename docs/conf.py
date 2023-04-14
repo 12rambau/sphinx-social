@@ -21,8 +21,7 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.viewcode",
     "sphinx_design",
-    "sphinxcontrib.icon",
-    "sphinxcontrib.btn",
+    "sphinx_social",
 ]
 exclude_patterns = ["**.ipynb_checkpoints"]
 templates_path = ["_template"]

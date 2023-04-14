@@ -36,7 +36,7 @@ Homepage = "https://github.com/12rambau/sphinx-social"
 [project.optional-dependencies]
 dev = ["pre-commit", "commitizen", "nox", "mypy"]
 test = ["pytest", "pytest-sugar", "pytest-cov", "pytest-deadfixtures"]
-doc = ["sphinx", "pydata-sphinx-theme", "sphinx-copybutton", "sphinx-design", "sphinx-icon", "sphinx-btn"]
+doc = ["sphinx", "pydata-sphinx-theme", "sphinx-copybutton", "sphinx-design"]
 
 [tool.setuptools]
 include-package-data = false

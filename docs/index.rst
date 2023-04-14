@@ -11,6 +11,17 @@ sphinx-social
    contribute
    API <api/modules>
 
+
+test:
+
+.. mastodon:: https://hachyderm.io/@choldgraf/109858392098988533
+
+.. facebook:: https://www.facebook.com/fr.CroixRouge/photos/a.10150289464191124/10162523534151124/
+
+.. linkedin:: https://www.linkedin.com/posts/github_github-copilot-is-here-to-help-with-its-context-activity-7052259886453174272-en_j?utm_source=share&utm_medium=member_desktop
+
+.. twitter:: https://twitter.com/github/status/1638541174611779584
+
 Documentation contents
 ----------------------
 
